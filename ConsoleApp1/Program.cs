@@ -67,10 +67,9 @@ namespace ConsoleApp1
             for (int i = 0; i < rendezettLista.Count(); i++)
             {
                 if (rendezettLista[i].Tipus == "orvosi")
-                    sw.WriteLine($"{rendezettLista[i].Ev};{rendezettLista[i].Tipus}");
-
-                sw.Close();
+                    sw.WriteLine($"{rendezettLista[i].Ev};{rendezettLista[i].Tipus}");    
             }
+            sw.Close();
         }
     }
 }
